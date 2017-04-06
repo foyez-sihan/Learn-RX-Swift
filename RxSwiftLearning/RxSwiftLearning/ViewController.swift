@@ -10,16 +10,10 @@ import UIKit
 import RxSwift
 class ViewController: UIViewController {
     @IBOutlet weak var webView: UIWebView!
-//    let link = "https://raw.githubusercontent.com/sihanfoyez2016/Learn-RX-Swift/master/RxSwiftLearning/RxSwiftLearning/ViewController.swift"
-//    let link = "https://github.com/sihanfoyez2016/Learn-RX-Swift/blob/master/RxSwiftLearning/RxSwiftLearning/ViewController.swift"
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        if let url = URL(string: link) {
-            
-            let req = URLRequest(url: url, cachePolicy: .returnCacheDataElseLoad, timeoutInterval: 10.0)
-            webView.loadRequest(req)
-        }
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
