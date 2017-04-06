@@ -11,7 +11,7 @@ import RxSwift
 class ViewController: UIViewController {
     @IBOutlet weak var webView: UIWebView!
 //    let link = "https://raw.githubusercontent.com/sihanfoyez2016/Learn-RX-Swift/master/RxSwiftLearning/RxSwiftLearning/ViewController.swift"
-    let link = "https://github.com/sihanfoyez2016/Learn-RX-Swift/blob/master/RxSwiftLearning/RxSwiftLearning/ViewController.swift"
+//    let link = "https://github.com/sihanfoyez2016/Learn-RX-Swift/blob/master/RxSwiftLearning/RxSwiftLearning/ViewController.swift"
     override func viewDidLoad() {
         
         super.viewDidLoad()
